@@ -1,0 +1,34 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "name": "Laptop",
+            "price": 6300,
+            "categoryId": 1,
+            "description": "Monster AbraV15.5",
+            "imageUrl": "https://productimages.hepsiburada.net/s/40/375/10670018986034.jpg"
+        },
+        {
+            "id": 2,
+            "name": "Mouse",
+            "price": 150,
+            "categoryId": 2,
+            "description": "Logitech G300s",
+            "imageUrl": "https://www.itopya.com/picture500x0/LOGITECH-G300s-GAMING-MOUSE.jpg"
+        }
+    ],
+    "categories": [
+        {
+            "categoryId": 1,
+            "name": "Bilgisayar"
+        },
+        {
+            "categoryId": 2,
+            "name": "Telefon"
+        },
+        {
+            "categoryId": 3,
+            "name": "Muzik"
+        }
+    ]
+}
