@@ -11,7 +11,7 @@ import { Router } from '@angular/router';
 })
 export class LoginComponent implements OnInit {
 
-  constructor(private formBuilder: FormBuilder, private accountService: AccountService, private router: Router) { 
+  constructor(private formBuilder: FormBuilder, private accountService: AccountService, private router: Router) {
   }
 
   isWrong: boolean = false;
@@ -34,14 +34,14 @@ export class LoginComponent implements OnInit {
     // console.log(this.user.password);
     this.accountService.login(this.user);
     console.log(this.accountService.isLoggedIn());
-    if (this.accountService.isLoggedIn()){
+    if (this.accountService.isLoggedIn()) {
       this.isWrong = false;
       console.log('Giris Yapildi');
       this.router.navigate(['/products']);
-    }else{
+    } else {
       this.isWrong = true;
-      this.user.userName="";
-      this.user.password="";
+      this.user.userName = "";
+      this.user.password = "";
     }
   }
 
